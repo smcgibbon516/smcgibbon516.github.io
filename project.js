@@ -55,66 +55,64 @@ $(document).ready(function() {
 
 
 
-/*
+
   $(document).scroll(function() {
 
-    if ($(this).scrollTop() < 130) {
+    if ($(this).scrollTop() > 630) {
       //$('#section-header-projects').css({color: "black"});
-      $('#name').addClass("name-active");
+      $('#intro-link').addClass("link-active");
     }
     else {
-      $('#name').removeClass("name-active");
-      $('#name').removeClass("name-active-initial");
+      $('#intro-link').removeClass("link-active");
     }
 
-    if ($(this).scrollTop() > 130 && $(this).scrollTop() < 1000) {
+    if ($(this).scrollTop() > 630 && $(this).scrollTop() < 1350) {
       //$('#section-header-projects').css({color: "black"});
-      $('#section-header-projects').addClass("header-active");
-      $("#projects-link").addClass("link-active");
+      $('#intro-link').addClass("link-active");
     }
     else {
-      $('#section-header-projects').removeClass("header-active");
-      $("#projects-link").removeClass("link-active");
+      $('#intro-link').removeClass("link-active");
     }
 
-    if ($(this).scrollTop() > 1000 && $(this).scrollTop() < 1600) {
+    if ($(this).scrollTop() > 1350 && $(this).scrollTop() < 6500) {
       //$('#section-header-projects').css({color: "black"});
-      $('#section-header-writing').addClass("header-active");
-      $("#writing-link").addClass("link-active");
+      $('#research-link').addClass("link-active");
     }
     else {
-      $('#section-header-writing').removeClass("header-active");
-      $("#writing-link").removeClass("link-active");
+      $('#research-link').removeClass("link-active");
     }
 
-    if ($(this).scrollTop() > 1600 && $(this).scrollTop() < 2100) {
+    if ($(this).scrollTop() > 6500 && $(this).scrollTop() < 9100) {
       //$('#section-header-projects').css({color: "black"});
-      $('#section-header-aboutme').addClass("header-active");
-      $("#aboutme-link").addClass("link-active");
+      $('#define-link').addClass("link-active");
     }
     else {
-      $('#section-header-aboutme').removeClass("header-active");
-      $("#aboutme-link").removeClass("link-active");
+      $('#define-link').removeClass("link-active");
     }
 
-    if ($(this).scrollTop() > 2100) {
+    if ($(this).scrollTop() > 9100 && $(this).scrollTop() < 10100) {
       //$('#section-header-projects').css({color: "black"});
-      $('#section-header-contact').addClass("header-active");
-      $("#contact-link").addClass("link-active");
+      $('#ideation-link').addClass("link-active");
     }
     else {
-      $('#section-header-contact').removeClass("header-active");
-      $("#contact-link").removeClass("link-active");
+      $('#ideation-link').removeClass("link-active");
+    }
+
+    if ($(this).scrollTop() > 10100) {
+      //$('#section-header-projects').css({color: "black"});
+      $('#prototype-link').addClass("link-active");
+    }
+    else {
+      $('#prototype-link').removeClass("link-active");
     }
 
       //console.log(($('#section-header-projects')).style);
       console.log($(this).scrollTop());
-      var item = $("#section-header-projects");
       // console.log(item).style();
       //console.log(item);
 
   });
-*/
+
 
   // Hamburger Menu Button Click Listener
   $("#menu-button").click(function() {
