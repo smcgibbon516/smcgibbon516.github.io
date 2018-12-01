@@ -372,6 +372,18 @@ nav.stroke ul li a:hover:after {
 
 }
 
+.footer {
+  margin-top: 100px;
+  background-color: #F6F6F6;
+  height: 200px;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: 'Lato', sans-serif;
+  line-height: 150%;
+}
+
 /* FOOTER STYLES CLOSE */
 
 
