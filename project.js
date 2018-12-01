@@ -41,6 +41,7 @@ $(document).ready(function() {
 
   // Document Scroll Listener
   $(document).scroll(function() {
+    console.log($(this).scrollTop());
 
     // activates sidenav when user scrolls full past cover section
     // Checks for appropriate scroll position and minimum window width for sidenav
